@@ -13,4 +13,4 @@ jobs:
     runs-on: ubuntu-latest
     steps:
        - name: Installing Apache
-         run: apt update; apt install apache -y
+         run: sudo apt update; sudo apt install apache -y
