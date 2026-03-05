@@ -13,4 +13,4 @@ jobs:
     runs-on: ubuntu-latest
     steps:
        - name: Installing Apache
-         run: sudo apt update; sudo apt install apache -y
+         run: sudo apt update; sudo apt install tree -y
