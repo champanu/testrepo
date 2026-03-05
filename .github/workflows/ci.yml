@@ -8,3 +8,9 @@ jobs:
     steps:
       - name: Print My name
         run: echo Hello Github Actions
+
+  install-job:
+    runs-on: ubuntu-latest
+    steps:
+       - name: Installing Apache
+         run: apt update; apt install apache -y
